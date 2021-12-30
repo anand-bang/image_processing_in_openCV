@@ -1,0 +1,33 @@
+1.Create new folder name as venv
+2.Download python and install in your pc(Python 3.9.6)
+3.open cmd prompt in venv
+4.pip install virtualenv
+5.virtualenv flask  or  python -m virtualenv flask
+6.Activate your virtual env - .\flask\Scripts\activate   #if this cmd give you error then open cmd propmt through admin and type -> set-executionpolicy remotesigned  
+7.pip install Flask==2.0.1
+8.pip install opencv-python==4.5.4.60
+
+9.pip install matplotlib==3.4.3
+10.pip install numpy==1.21.4
+11.pip install pandas==1.3.5
+12.pip install tensorflow==2.7.0
+13.pip install scipy==1.7.3
+
+
+after all installation take app.py,camera.py,predict.py,static folder,templates folder from github to your venv file and then run below commmand and open web browser url for result 
+-python app.py
+
+##Skip this command #pip freeze > requirements.txt
+
+
+####################################################
+if you want do not want to insatll manually or skip the steps from 9 then
+you can directly install all installation through requirements.txt file just download and put that file in the venv folder and run below command
+
+->  pip install -r .\requirements.txt
+
+after all installation take app.py,camera.py,predict.py,static folder,templates folder in your venv file and then run below commmand and open web browser url for result 
+->  python app.py
+
+
+###################################################
